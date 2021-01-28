@@ -3,11 +3,8 @@ A new extended cell deconvolution for peripheral blood
 
 License: GPL-3
 
-Illumina Human Methylation data from EPIC on MACS-isolated and FACS-verified
-adult blood cell populations. The FlowSorted.BloodExtended.EPIC package
-contains Illumina HumanMethylationEPIC (\dQuote{EPIC})) DNA methylation
-microarray data from the immunomethylomics group
-\href{*URL for the paper*}{(Salas et al. 2021)},
+EPIC package contains Illumina HumanMethylationEPIC DNA methylation
+microarray data from the immunomethylomics group (Salas et al. 2021),
 consisting of 56 magnetic sorted blood cell references and 12 samples,
 formatted as an RGChannelSet object for integration and normalization using
 most of the existing Bioconductor packages.
@@ -15,7 +12,7 @@ most of the existing Bioconductor packages.
 This package contains data similar to the FlowSorted.Blood.EPIC
 package consisting of data from peripheral blood samples generated from
 adult men and women. However, in this application, we expanded the
-current six cell-type libraries to include memory and na?ve cells from both
+current six cell-type libraries to include memory and naive cells from both
 cytotoxic and helper T-cells and B-cells; while raising the granulocyte
 subtypes to incorporate eosinophils and basophils.
 
