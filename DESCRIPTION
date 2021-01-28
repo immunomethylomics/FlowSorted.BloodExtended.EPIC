@@ -1,16 +1,41 @@
 Package: FlowSorted.BloodExtended.EPIC
-Title: What the Package Does (One Line, Title Case)
+Type: Package
+Title: Illumina EPIC data on extended immunomagnetic sorted blood populations
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "First",
-           family = "Last",
-           role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license
-Encoding: UTF-8
-LazyData: true
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1
+Date: 2021-01-28
+Authors@R: c( person(c("Lucas", "A."), "Salas", role = c("cre", "aut"),
+            email = "lucas.a.salas.diaz@dartmouth.edu"),
+            person(c("Devin", "C."), "Koestler", role = c("aut"),
+            email = "dkoestler@kumc.edu"),
+            person(c("Ze"),"Zhang"", role = c("aut"),
+            email = "ze.zhang.gr@dartmouth.edu"),
+            person(c("Rondi", "A."), "Butler", role = c("ctb")),
+            person(c("Helen", "M."), "Hansen", role = c("ctb")),
+            person(c("John", "K."), "Wiencke", role = c("ctb")),
+            person(c("Karl", "T."), "Kelsey", role = c("ctb")),
+            person(c("Brock", "C."), "Christensen", role = c("ctb")),
+            person(c("Annette"),"Molinaro",role = c("ctb"))
+            )
+Description: Raw data objects to be used for extended blood cell proportion
+        estimation in minfi and similar packages.
+        https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE******.
+License: GPL-3
+Depends: R (>= 3.5), minfi (>= 1.21.2), SummarizedExperiment, genefilter, 
+         quadprog, nlme, S4Vectors,  graphics, stats, utils,
+         IlluminaHumanMethylationEPICanno.ilm10b4.hg19, ExperimentHub
+biocViews: ExperimentData, Homo_sapiens_Data, Tissue, MicroarrayData, Genome,
+        TissueMicroarrayData, MethylationArrayData
+NeedsCompilation: no
+LazyData: yes
+Packaged: *****-**-** **:**:** UTC; biocbuild
+Suggests: knitr,
+    rmarkdown, EpiDISH, FlowSorted.CordBloodCombined.450k,
+    FlowSorted.Blood.450k(>= 1.0.1), FlowSorted.CordBlood.450k, 
+    FlowSorted.CordBloodNorway.450k,
+    testthat, IlluminaHumanMethylation450kmanifest(>= 0.2.0), 
+    IlluminaHumanMethylation450kanno.ilmn12.hg19(>= 0.2.1), 
+    IlluminaHumanMethylationEPICanno.ilm10b2.hg19
+VignetteBuilder: knitr
+RoxygenNote: 7.1.0
+URL: https://github.com/immunomethylomics/FlowSorted.BloodExtended.EPIC
+BugReports:https://github.com/immunomethylomics/FlowSorted.BloodExtended.EPIC/issues.
