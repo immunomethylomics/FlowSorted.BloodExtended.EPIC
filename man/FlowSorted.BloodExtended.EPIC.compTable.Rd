@@ -55,7 +55,7 @@ doi: \href{https://dx.doi.org/10.1186/1471-2105-13-86}{10.1186/1471-2105-13-86}.
 #' \item  K Gervin, LA Salas et al. (2019) \emph{Systematic evaluation and
 validation of references and library selection methods for deconvolution of
 cord blood DNA methylation data}. Clin Epigenetics 11,125. doi:
- \href{https://dx.doi.org/10.1186/s13148-019-0717-y}{10.1186/s13148-019-0717-y}
+\href{https://dx.doi.org/10.1186/s13148-019-0717-y}{10.1186/s13148-019-0717-y}
 }
 }
 \keyword{datasets}

@@ -1,33 +1,33 @@
 Package: FlowSorted.BloodExtended.EPIC
 Type: Package
 Title: Illumina EPIC data on extended immunomagnetic sorted blood populations
-Version: 0.0.0.9000
-Date: 2021-01-28
+Version: 0.99.0
+Date: 2021-03-18
 Authors@R: c( person(c("Lucas", "A."), "Salas", role = c("cre", "aut"),
-            email = "lucas.a.salas@dartmouth.edu"),
+            email = "lucas.a.salas.diaz@dartmouth.edu"),
             person(c("Ze"),"Zhang", role = c("aut"),
             email = "ze.zhang.gr@dartmouth.edu"),
             person(c("Devin", "C."), "Koestler", role = c("ctb")),
             person(c("Rondi", "A."), "Butler", role = c("ctb")),
             person(c("Helen", "M."), "Hansen", role = c("ctb")),
+            person(c("Annette"),"Molinaro",role = c("ctb")),
             person(c("John", "K."), "Wiencke", role = c("ctb")),
             person(c("Karl", "T."), "Kelsey", role = c("ctb")),
-            person(c("Brock", "C."), "Christensen", role = c("ctb")),
-            person(c("Annette"),"Molinaro",role = c("ctb"))
+            person(c("Brock", "C."), "Christensen", role = c("ctb"))
             )
 Description: Raw data objects to be used for extended blood cell proportion
         estimation in minfi and similar packages.
         https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE167998.
 License: GPL-3 + file LICENSE
-Depends: R (>= 3.5), minfi (>= 1.21.2), FlowSorted.Blood.EPIC,
-         SummarizedExperiment, genefilter, 
-         quadprog,  nlme, S4Vectors,  graphics, stats, utils,
-         IlluminaHumanMethylationEPICanno.ilm10b4.hg19, ExperimentHub
+Depends: R (>= 4.0), minfi (>= 1.21.2), FlowSorted.Blood.EPIC,
+        SummarizedExperiment, genefilter, 
+        quadprog,  nlme, S4Vectors,  graphics, stats, utils,
+        IlluminaHumanMethylationEPICanno.ilm10b4.hg19, ExperimentHub
 biocViews: ExperimentData, Homo_sapiens_Data, Tissue, MicroarrayData, Genome,
         TissueMicroarrayData, MethylationArrayData
 NeedsCompilation: no
 LazyData: yes
-Packaged: *****-**-** **:**:** UTC; biocbuild
+Packaged: 2021-03-18 17:00:00 UTC; biocbuild
 Suggests: knitr,
     rmarkdown, EpiDISH, FlowSorted.CordBloodCombined.450k,
     FlowSorted.Blood.450k(>= 1.0.1), 

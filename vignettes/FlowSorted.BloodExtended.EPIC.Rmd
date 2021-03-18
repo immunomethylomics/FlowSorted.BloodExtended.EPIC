@@ -39,9 +39,9 @@ As a test of accuracy 12 experimental mixtures were reconstructed using fixed
 amounts of DNA from purified cells. 
 
 **Objects included:**  
- 1. *FlowSorted.BloodExtended.EPIC* is the RGChannelSet object containing the 
- reference library
- 
+1. *FlowSorted.BloodExtended.EPIC* is the RGChannelSet object containing the 
+reference library
+
 ```{r eval=FALSE}
 library(ExperimentHub)  
 hub <- ExperimentHub()  
@@ -49,19 +49,19 @@ query(hub, "FlowSorted.BloodExtended.EPIC")
 FlowSorted.BloodExtended.EPIC <- hub[["*****"]]  
 FlowSorted.BloodExtended.EPIC  
 ```
- The raw dataset is hosted in both ExperimentHub (******) and GEO 
- [GSE167998](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE167998)  
+The raw dataset is hosted in both ExperimentHub (******) and GEO 
+[GSE167998](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE167998)  
 
- 2. *IDOLOptimizedCpGsBloodExtended* the IDOL L-DMR library for EPIC arrays  
+2. *IDOLOptimizedCpGsBloodExtended* the IDOL L-DMR library for EPIC arrays  
 ```{r eval=FALSE}
 head(IDOLOptimizedCpGsExtended)  
 ```  
- 3. *IDOLOptimizedCpGsBloodExtended450k* the IDOL L-DMR library for legacy 450k 
- arrays  
+3. *IDOLOptimizedCpGsBloodExtended450k* the IDOL L-DMR library for legacy 450k 
+arrays  
 ```{r eval=FALSE}
 head(IDOLOptimizedCpGsBloodExtended450k)  
 ```  
- *See the object help files for additional information*  
+*See the object help files for additional information*  
 **References**
 
 LA Salas et al. (2021) Enhanced cell deconvolution of peripheral blood using 

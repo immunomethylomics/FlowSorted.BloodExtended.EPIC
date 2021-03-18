@@ -11,9 +11,9 @@
 #' Researchers who want to project directly their estimates with 450k data can
 #' use this matrix of different cellular populations ( neutrophils (Neu),
 #' eosinophils (Eos), basophils (Bas), monocytes (Mono),B lymphocytes naive
-#' (Bnv), B lymphocytes memory (Bmem), T helper lymphocytes na?ve (CD4nv),
+#' (Bnv), B lymphocytes memory (Bmem), T helper lymphocytes naive (CD4nv),
 #' T helper lymphocytes memory (CD4mem), T regulatory cells (Treg),
-#' T cytotoxic lymphocytes na?ve (CD8nv), T cytotoxic lymphocytes memory
+#' T cytotoxic lymphocytes naive (CD8nv), T cytotoxic lymphocytes memory
 #' (CD8mem), and natural killer lymphocytes (NK)).
 #'
 #' @format A class: matrix, dimensions: 1500 12
@@ -38,7 +38,7 @@
 #' #' \item  K Gervin, LA Salas et al. (2019) \emph{Systematic evaluation and
 #' validation of references and library selection methods for deconvolution of
 #' cord blood DNA methylation data}. Clin Epigenetics 11,125. doi:
-#'  \href{https://dx.doi.org/10.1186/s13148-019-0717-y}{10.1186/s13148-019-0717-y}
+#' \href{https://dx.doi.org/10.1186/s13148-019-0717-y}{10.1186/s13148-019-0717-y}
 #' }
 #' @examples
 #' # Do not run
