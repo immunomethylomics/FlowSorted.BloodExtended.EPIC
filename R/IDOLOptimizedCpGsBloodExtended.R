@@ -12,6 +12,9 @@
 #'         The format is:
 #'         chr [1:1200] "cg23788058" "cg21091766" "cg00644351" "cg21782213" ...
 #'
+#' @references LA Salas et al. (2021). \emph{Enhanced cell deconvolution of
+#' peripheral blood using DNA methylation for high-resolution immune profiling}.
+#' (Under review)
 #' @references LA Salas et al. (2018). \emph{An optimized library for
 #' reference-based deconvolution of whole-blood biospecimens assayed using the
 #' Illumina HumanMethylationEPIC BeadArray}. Genome Biology 19, 64. doi:

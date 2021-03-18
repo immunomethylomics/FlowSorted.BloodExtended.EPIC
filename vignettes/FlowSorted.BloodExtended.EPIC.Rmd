@@ -15,30 +15,32 @@ knitr::opts_chunk$set(cache = FALSE, warning = FALSE, message = FALSE,
 )
 ```
 
-The FlowSorted.BloodExtended.EPIC package contains data derived from 
-Illumina HumanMethylationEPIC DNA methylation microarrays (Salas LA et al. 2021), 
+The FlowSorted.BloodExtended.EPIC package contains data derived from Illumina 
+HumanMethylationEPIC DNA methylation microarrays (Salas LA et al. 2021), 
 consisting of 56 blood cell references and 12 mixed blood samples, formatted
 as an RGChannelSet object for integration and normalization using most of the 
 existing Bioconductor packages. 
 
-The FlowSorted.BloodExtended.EPIC dataset includes information from neutrophils (Neu, n=6), 
-eosinophils (Eos, n=4), basophils (Bas, n=6), monocytes (Mono, n=5), B naïve cells (Bnv, n=4), 
-B memory cells (Bmem, n=6), T-helper CD4+ naïve cells (CD4nv, n=5), T-helper CD4+ memory 
-cells (CD4mem, n=4), T regulatory cells (Treg, n=3), T-cytotoxic CD8+ naïve cells (CD8nv, n=5),
-T-cytotoxic memory CD8+ cells (CD8mem, n=4), and natural killer cells (NK, n=4), plus 12 DNA 
+The FlowSorted.BloodExtended.EPIC dataset includes information from neutrophils 
+(Neu, n=6), eosinophils (Eos, n=4), basophils (Bas, n=6), monocytes (Mono, n=5),
+B naïve cells (Bnv, n=4), B memory cells (Bmem, n=6), T-helper CD4+ naïve cells 
+(CD4nv, n=5), T-helper CD4+ memory cells (CD4mem, n=4), T regulatory cells 
+(Treg, n=3), T-cytotoxic CD8+ naïve cells (CD8nv, n=5),T-cytotoxic memory CD8+ 
+cells (CD8mem, n=4), and natural killer cells (NK, n=4), plus 12 DNA 
 artificial mixtures, labeled as MIX in this dataset.  
 
-Researchers may find this package useful as these samples represent
-different cellular populations, including eosinophils, basophils, monocytes, 
-B naïve cells, B memory cells, T-helper CD4+ naïve cells, T-helper CD4+ memory 
-cells, T regulatory cells, T-cytotoxic CD8+ naïve cells, T-cytotoxic memory CD8+ cells 
-and natural killer cells, of cell sorted blood generated with high purity estimates. 
-As a test of accuracy 12 experimental mixtures were reconstructed using fixed amounts of DNA from
-purified cells. 
+Researchers may find this package useful as these samples represent different 
+cellular populations, including eosinophils, basophils, monocytes, B naïve 
+cells, B memory cells, T-helper CD4+ naïve cells, T-helper CD4+ memory cells, T 
+regulatory cells, T-cytotoxic CD8+ naïve cells, T-cytotoxic memory CD8+ cells 
+and natural killer cells, of cell sorted blood generated with high purity 
+estimates. 
+As a test of accuracy 12 experimental mixtures were reconstructed using fixed 
+amounts of DNA from purified cells. 
 
 **Objects included:**  
- 1. *FlowSorted.BloodExtended.EPIC* is the RGChannelSet object containing the reference 
- library
+ 1. *FlowSorted.BloodExtended.EPIC* is the RGChannelSet object containing the 
+ reference library
  
 ```{r eval=FALSE}
 library(ExperimentHub)  
@@ -48,7 +50,7 @@ FlowSorted.BloodExtended.EPIC <- hub[["*****"]]
 FlowSorted.BloodExtended.EPIC  
 ```
  The raw dataset is hosted in both ExperimentHub (******) and GEO 
- [GSE******](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE******)  
+ [GSE167998](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE167998)  
 
  2. *IDOLOptimizedCpGsBloodExtended* the IDOL L-DMR library for EPIC arrays  
 ```{r eval=FALSE}
@@ -64,27 +66,6 @@ head(IDOLOptimizedCpGsBloodExtended450k)
 
 LA Salas et al. (2021) An extended blood DNA methylation deconvolution 
 approach for naïve memory lymphocytes and myeloid components. (Under review)
-
-KM Bakulski, et al. (2016) DNA methylation of cord blood cell types: 
-Applications for mixed cell birth studies. Epigenetics 11:5. doi: 
-[10.1080/15592294.2016.1161875]
-(https://dx.doi.org/10.1080/15592294.2016.1161875).
-
-K Gervin, et al. (2016) Cell type specific DNA methylation in cord blood: A 
-450K-reference data set and cell count-based validation of estimated cell type 
-composition. Epigenetics 11:690–8. doi: 
-[10.1080/15592294.2016.1214782]
-(https://dx.doi.org/10.1080/15592294.2016.1214782). 
-
-OM de Goede, et al. (2015) Nucleated red blood cells impact DNA methylation and
-expression analyses of cord blood hematopoietic cells. Clin Epigenetics. 7:95. 
-doi: [10.1186/s13148-015-0129-6](https://dx.doi.org/10.1186/s13148-015-0129-6). 
-
-X Lin, et al. (2018) Cell type-specific DNA methylation in neonatal cord tissue
-and cord blood: A 850K-reference panel and comparison of cell-types. 
-Epigenetics. 13:941–58. doi: 
-[10.1080/15592294.2018.1522929]
-(https://dx.doi.org/10.1080/15592294.2018.1522929).
 
 LA Salas et al. (2018). An optimized library for reference-based deconvolution 
 of whole-blood biospecimens assayed using the Illumina HumanMethylationEPIC
@@ -102,3 +83,5 @@ doi: [10.1186/1471-2105-13-86](https://dx.doi.org/10.1186/1471-2105-13-86).
 
 [minfi](http://bioconductor.org/packages/release/bioc/html/minfi.html)
 Tools to analyze & visualize Illumina Infinium methylation arrays.
+
+

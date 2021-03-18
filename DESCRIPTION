@@ -4,11 +4,10 @@ Title: Illumina EPIC data on extended immunomagnetic sorted blood populations
 Version: 0.0.0.9000
 Date: 2021-01-28
 Authors@R: c( person(c("Lucas", "A."), "Salas", role = c("cre", "aut"),
-            email = "lucas.a.salas.diaz@dartmouth.edu"),
-            person(c("Devin", "C."), "Koestler", role = c("aut"),
-            email = "dkoestler@kumc.edu"),
-            person(c("Ze"),"Zhang"", role = c("aut"),
+            email = "lucas.a.salas@dartmouth.edu"),
+            person(c("Ze"),"Zhang", role = c("aut"),
             email = "ze.zhang.gr@dartmouth.edu"),
+            person(c("Devin", "C."), "Koestler", role = c("ctb")),
             person(c("Rondi", "A."), "Butler", role = c("ctb")),
             person(c("Helen", "M."), "Hansen", role = c("ctb")),
             person(c("John", "K."), "Wiencke", role = c("ctb")),
@@ -18,7 +17,7 @@ Authors@R: c( person(c("Lucas", "A."), "Salas", role = c("cre", "aut"),
             )
 Description: Raw data objects to be used for extended blood cell proportion
         estimation in minfi and similar packages.
-        https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE******.
+        https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE167998.
 License: GPL-3
 Depends: R (>= 3.5), minfi (>= 1.21.2), SummarizedExperiment, genefilter, 
          quadprog, nlme, S4Vectors,  graphics, stats, utils,
@@ -36,6 +35,6 @@ Suggests: knitr,
     IlluminaHumanMethylation450kanno.ilmn12.hg19(>= 0.2.1), 
     IlluminaHumanMethylationEPICanno.ilm10b2.hg19
 VignetteBuilder: knitr
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.1
 URL: https://github.com/immunomethylomics/FlowSorted.BloodExtended.EPIC
-BugReports:https://github.com/immunomethylomics/FlowSorted.BloodExtended.EPIC/issues.
+BugReports: https://github.com/immunomethylomics/FlowSorted.BloodExtended.EPIC/issues.
