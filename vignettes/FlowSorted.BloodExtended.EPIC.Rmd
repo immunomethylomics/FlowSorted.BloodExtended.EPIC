@@ -23,16 +23,16 @@ existing Bioconductor packages.
 
 The FlowSorted.BloodExtended.EPIC dataset includes information from neutrophils 
 (Neu, n=6), eosinophils (Eos, n=4), basophils (Bas, n=6), monocytes (Mono, n=5),
-B naïve cells (Bnv, n=4), B memory cells (Bmem, n=6), T-helper CD4+ naïve cells 
+B naive cells (Bnv, n=4), B memory cells (Bmem, n=6), T-helper CD4+ naive cells 
 (CD4nv, n=5), T-helper CD4+ memory cells (CD4mem, n=4), T regulatory cells 
-(Treg, n=3), T-cytotoxic CD8+ naïve cells (CD8nv, n=5),T-cytotoxic memory CD8+ 
+(Treg, n=3), T-cytotoxic CD8+ naive cells (CD8nv, n=5),T-cytotoxic memory CD8+ 
 cells (CD8mem, n=4), and natural killer cells (NK, n=4), plus 12 DNA 
 artificial mixtures, labeled as MIX in this dataset.  
 
 Researchers may find this package useful as these samples represent different 
-cellular populations, including eosinophils, basophils, monocytes, B naïve 
-cells, B memory cells, T-helper CD4+ naïve cells, T-helper CD4+ memory cells, T 
-regulatory cells, T-cytotoxic CD8+ naïve cells, T-cytotoxic memory CD8+ cells 
+cellular populations, including eosinophils, basophils, monocytes, B naive 
+cells, B memory cells, T-helper CD4+ naive cells, T-helper CD4+ memory cells, T 
+regulatory cells, T-cytotoxic CD8+ naive cells, T-cytotoxic memory CD8+ cells 
 and natural killer cells, of cell sorted blood generated with high purity 
 estimates. 
 As a test of accuracy 12 experimental mixtures were reconstructed using fixed 
