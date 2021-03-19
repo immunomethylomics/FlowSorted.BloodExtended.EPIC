@@ -24,7 +24,7 @@ Depends: R (>= 4.0), minfi (>= 1.21.2), FlowSorted.Blood.EPIC,
         quadprog,  nlme, S4Vectors,  graphics, stats, utils,
         IlluminaHumanMethylationEPICanno.ilm10b4.hg19, ExperimentHub
 biocViews: ExperimentData, Homo_sapiens_Data, Tissue, MicroarrayData, Genome,
-        TissueMicroarrayData, MethylationArrayData
+        TissueMicroarrayData, MethylationArrayData, ExperimentHub
 NeedsCompilation: no
 LazyData: yes
 Packaged: 2021-03-18 17:00:00 UTC; biocbuild

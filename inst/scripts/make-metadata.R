@@ -17,7 +17,7 @@ meta <- data.frame(
     BiocVersion = c("3.13"),
     Genome = rep("hg19", 1),
     SourceType = rep("tar.gz", 1),
-    SourceUrl = "GEO URL",
+    SourceUrl = "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE167998",
     SourceVersion = "Mar 18 2021",
     Species = "Homo sapiens",
     TaxonomyId = 9606,
@@ -26,8 +26,8 @@ meta <- data.frame(
     Maintainer = c("Lucas A Salas <lucas.a.salas.diaz@dartmouth.edu>"),
     RDataClass = c("RGChannelSet") ,
     DispatchClass = c(rep("Rda",1)),
-RDataPath = c(paste0("FlowSorted.BloodExtended.EPIC/",
-"FlowSorted.BloodExtended.EPIC.rda")),
+RDataPath = c(paste0("FlowSorted.BloodExtended.EPIC/data/",
+"FlowSorted.BloodExtended.EPIC.RData")),
 Tags = ""
 )
 
