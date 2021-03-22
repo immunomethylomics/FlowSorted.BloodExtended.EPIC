@@ -26,7 +26,7 @@ meta <- data.frame(
     Maintainer = c("Lucas A Salas <lucas.a.salas.diaz@dartmouth.edu>"),
     RDataClass = c("RGChannelSet") ,
     DispatchClass = c(rep("Rda",1)),
-RDataPath = c(paste0("FlowSorted.BloodExtended.EPIC/data/",
+RDataPath = c(paste0("FlowSorted.BloodExtended.EPIC/",
 "FlowSorted.BloodExtended.EPIC.RData")),
 Tags = ""
 )
