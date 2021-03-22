@@ -46,10 +46,10 @@ reference library
 library(ExperimentHub)  
 hub <- ExperimentHub()  
 query(hub, "FlowSorted.BloodExtended.EPIC")  
-FlowSorted.BloodExtended.EPIC <- hub[["*****"]]  
+FlowSorted.BloodExtended.EPIC <- hub[["EH5425"]]  
 FlowSorted.BloodExtended.EPIC  
 ```
-The raw dataset is hosted in both ExperimentHub (******) and GEO 
+The raw dataset is hosted in both ExperimentHub (EH5425) and GEO 
 [GSE167998](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE167998)  
 
 2. *IDOLOptimizedCpGsBloodExtended* the IDOL L-DMR library for EPIC arrays  

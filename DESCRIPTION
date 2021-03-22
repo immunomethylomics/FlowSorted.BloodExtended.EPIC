@@ -18,7 +18,7 @@ Authors@R: c( person(c("Lucas", "A."), "Salas", role = c("cre", "aut"),
 Description: Raw data objects to be used for extended blood cell proportion
         estimation in minfi and similar packages.
         https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE167998.
-License: GPL-3 + file LICENSE
+License: file LICENSE
 Depends: R (>= 4.0), minfi (>= 1.21.2), FlowSorted.Blood.EPIC,
         SummarizedExperiment, genefilter, 
         quadprog,  nlme, S4Vectors,  graphics, stats, utils,
