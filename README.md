@@ -1,3 +1,4 @@
+<a href="https://zenodo.org/badge/latestdoi/327382979"><img src="https://zenodo.org/badge/327382979.svg" alt="DOI"></a>
 # FlowSorted.BloodExtended.EPIC
 A new extended cell deconvolution for peripheral blood 
 
