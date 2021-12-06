@@ -70,10 +70,6 @@
 #'
 #' @examples
 #' # Explore the reference library
-#' library(ExperimentHub)
-#' hub <- ExperimentHub()
-#' query(hub, "FlowSorted.BloodExtended.EPIC")
-#' FlowSorted.BloodExtended.EPIC <- hub[["EH5425"]]
 #' FlowSorted.BloodExtended.EPIC
 #'
 "FlowSorted.BloodExtended.EPIC"
