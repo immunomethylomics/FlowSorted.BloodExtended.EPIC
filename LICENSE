@@ -1,2 +1,92 @@
-free for non-commercial users. Non-academic users MUST have requested
-from the author
+Nonexclusive Source Code License
+
+
+DARTMOUTH COLLEGE NON-EXCLUSIVE RESEARCH USE
+SOURCE CODE LICENSE AGREEMENT
+(For research purposes only)
+
+October 15, 2021
+
+The TRUSTEES OF DARTMOUTH COLLEGE, a non-profit educational and research institution existing under the laws of the State of New Hampshire, with an address located at 11 Rope Ferry Road, Hanover, NH 03755 (“Dartmouth”), is granting this License on the terms and conditions described below, to the Licensee (as defined below). This License is effective as of the date first set forth above.
+
+1.	Definitions.
+
+"Approved Publications" means any academic publication or presentation that includes a disclosure of any results obtained from using the Work or Derivative Works or any portion of the Work or Derivative Works.
+"Derivative Works" means any modification or enhancement to any portion of the Work, whether in Source form or Object form, including, without limitation, any that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship under the US Copyright Act. For the purposes of the License, Derivative Works shall not include works that remain separable from or merely link (or bind by name) to the interfaces of the Work.
+"Licensee" means the entity identified as the Licensee in the signature block below. "Licensor" means Dartmouth.
+"Non-Commercial Entity" means (i) any local, state or federal governmental entity or authority in the United States, or (ii) any university or other institution of higher education or an organization of the type described in section 501(c)(3) of the Internal Revenue Code of 1954 (26 U.S.C.
+501(c)) and exempt from taxation under section 501(a) of the Internal Revenue Code (26 U.S.C. 501(a)) or any nonprofit scientific or educational organization qualified under a state nonprofit organization statute.
+ 
+"Object form" means computer programming code, substantially or entirely in binary form, which is intended to be directly executable by a computer after suitable processing but without the intervening steps of compilation or assembly.
+"Source form" means computer programming code that may be printed out or displayed in human readable form, including any notes, materials, and programmer's comments therein.
+"Third Party Licenses" means the licenses that govern the Third-Party Software.
+
+"Third Party Software" means software programs that were not authored by Licensor or in which Licensor does not otherwise own all intellectual property rights.
+"Work" means the FlowSorted.BloodExtended.EPIC library, whether in Source form or Object form, which is made available under the License.
+
+
+2.	Grant of Research Purposes Copyright License.
+2.1	License Grant. Subject to the terms and conditions of the License, Licensor grants to Licensee a revocable, worldwide, non-exclusive, no-charge, royalty-free, copyright license to reproduce the Work and to prepare Derivative Works, solely to conduct academic research internally within the Licensee organization; provided that (i) all Derivative Works will be subject to all terms and conditions that govern the Works under this License, and (ii) Licensee hereby grants back to Licensor a perpetual, irrevocable, transferable, sublicensable (through multiple tiers), royalty-free and worldwide license, under all of Licensee's intellectual property rights in the Derivative Works, to use and exploit the same for any and all purposes without limitation, and (iii) Licensee will deliver a copy of the Derivative Works to Licensor on a monthly basis during the term of this License through a reasonable method specified by Licensor from time-to- time. Without limiting the foregoing and for clarity, Licensor only grants rights under this License to Non-Commercial Entities, and all parties other than Non-Commercial Entities do not obtain any rights under this License.
+2.2	Limitations on License Grant. Notwithstanding any of the grants set out in the License, Licensee will not, and will not permit or authorize any third party to: (i) alter, modify, adapt, translate, prepare derivative works from, decompile, reverse engineer, disassemble, or otherwise attempt to derive software in Source form from any software within the Work that is delivered to Licensee under this License solely in Object Code form; (ii) sublicense, lend, rent, lease, offer for sale, assign, transfer, sell, distribute or otherwise commercialize the Work or any Derivative Work, provided that the foregoing does not preclude Approved Publications pursuant to Section 2.3 herein below; (iii) use any part of the Work or any Derivative Work or any know- how or techniques based on or arising from the Work or any Derivative Work to directly or indirectly commercially exploit any product or service; (iv) use the Work or any Derivative Work
+ 
+in violation of this License, any applicable laws, rules or regulations or any third-party rights; or
+(v) use the Work or any Derivative Work in connection with any open-source development tools, software, scripts or libraries in such a manner that the Work or any Derivative Work would be required to be disclosed or distributed in Source form, licensed for the purpose of making derivative works, or redistributed free of charge (for example, tainting through the GPL or LGPL (GNU General Public License or GNU Lesser/ Library General Public License).
+2.3	Approved Publications. Subject to the terms and conditions of the License, Licensee may develop and disseminate Approved Publications, provided that (i) Licensee must notify Licensor in writing no less than forty-five (45) days prior to the date on which each Approved Publication will be published or presented; (ii) Licensee may not provide access to the Work or Derivative Works pursuant to an Approved Publication to any person or entity other than a Non- Commercial Entity that has entered into this License with Licensor prior to receiving such access, provided that Licensor, in its sole discretion, may choose not to enter into this License with any such Non-Commercial Entity; (iii) Licensee must notify any Non-Commercial Entity seeking access to the Work or Derivative Works pursuant to an Approved Publication to contact Licensor at technology.transfer@dartmouth.edu so that such Non-Commercial Entity can seek to enter into this License with Licensor prior to receiving said access; and (iv) each Non- Commercial Entity that obtains access to any portion of the Work or Derivative Works pursuant to an Approved Publication and that enters into this License will obtain the license rights set forth in this License and otherwise be subject to the terms set forth in this License.
+2.4	Third Party Software. The License does not govern Third Party Software to the extent that the Third Party Software is subject to a Third Party License with terms that conflict with the License. Licensee is solely responsible for complying with the Third Party License that governs such Third Party Software.
+
+
+3.	Distribution and Commercial Rights.
+
+The license granted hereunder is limited to the rights granted under Section 2, and all rights not expressly granted in Section 2 are hereby reserved.  Accordingly, except as expressly provided in Section 2, Licensor does not grant to Licensee any right, title or interest in the Works, whether by implication, estoppel or otherwise.
+
+4.	Copies of the Work; Attribution.
+
+The Work includes a "LICENSE" file (such as "LICENSE.txt" or "LICENSE.pdf') in the Source form identifying the Licensor as the copyright holder of the Work. Licensee shall retain all notices and attributions, including all copyright notices, in every copy of the Work and incorporate all notices and attributions, including all copyright notices, into each Derivative Work.
+
+
+With respect to each Approved Publication, Licensee shall provide attribution to Licensor in the following form: "This research was enabled, in part, by the use of the Software package developed at Dartmouth College, which software is subject to the licensing terms made available by Dartmouth Technology Transfer and which software is provided "AS IS" with no warranties whatsoever," and will cite an appropriate reference(s) from those provided at .
+The contents of the "LICENSE" file are for informational purposes only and do not modify the License. Licensee may add Licensee's own attribution notices within Derivative Works, alongside or as an addendum to the "LICENSE" text from the Work, provided that such additional attribution notices cannot be construed as modifying the License and Licensee must in all cases include the attribution in the preceding paragraph.
+5.	Trademarks.
+
+This License does not grant permission to use the trade names, trademarks, service marks, research project, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work, reproducing the content of the "LICENSE" file, and providing the attribution required in Section 4.
+6.	Representations and Warranties and Disclaimer of Warranty.
+
+Licensee represents and warrants that (i) it has all required organizational authority to enter into this License; (ii) this License constitutes a binding obligation of Licensee; (iii) it is a Non- Commercial Entity and will provide Licensor with reasonable documentation evidencing that status upon request by Licensor; and (iv) it will comply in all respects with Section 2.3.
+LICENSOR PROVIDES THE WORK "AS IS", WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF TITLE, NON- INFRINGEMENT, MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. Licensee is
+solely responsible for determining the appropriateness of using the Work and assumes all risks
+associated with Licensee's exercise of permissions under the License.
+
+7.	Limitation of Liability.
+
+LICENSOR WILL HAVE NO LIABILITY OF ANY NATURE (INCLUDING ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES; DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION; AND ANY AND ALL OTHER
+ 
+DAMAGES OR LOSSES), UNDER ANY LEGAL THEORY, WHETHER IN TORT (INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, UNLESS AND ONLY TO THE EXTENT REQUIRED BY APPLICABLE LAW, ARISING OUT OF OR IN ANY WAY RELATED TO THE LICENSE, EXERCISE OF ANY PERMISSIONS GRANTED UNDER THE LICENSE, OR THE USE OR INABILITY TO USE THE WORK, EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LIABILITY.
+
+8.	Termination.
+
+The License and all permissions granted in the License run indefinitely but are immediately terminated upon Licensee's failure to fully comply with any term or condition of the License. Upon termination of the License, Licensee shall immediately cease exercising all permissions granted under the License, including as applied to any Derivative Work, Licensee must deliver to Licensor any Derivative Works not yet delivered as of the termination date, and Licensee must permanently delete all copies of the Work and Derivative Works within its possession or control. Upon any such termination of this License, all terms in this License will survive except the license granted to Licensee in Section 2.1.
+9.	Export Control.
+
+Licensee further represents and warrants that it shall comply with all United States laws and regulations controlling the export of certain technologies, commodities and/or technical data, including without limitation all Export Administration Regulations of the United States Department of Commerce, and that it bears sole responsibility for its violation of such laws and regulations.
+10.	Miscellaneous.
+
+The License is personal to Licensee and no rights or obligations may be assigned or transferred by Licensee without the prior written consent of Licensor. The License may be modified only in writing signed by the parties hereto. Licensor's failure to assert its rights for or upon any breach of the License will not be deemed a waiver of such rights. Any waiver of rights under the License will be in writing signed by the party granting the waiver. Any waiver of any rights in a specific instance will not be construed as a waiver of any rights in any other instance, whether or not similar. If any provision of the License is held invalid or unenforceable the same will be severed from this document, and such invalidity or unenforceability will not affect any other provision of the License. The License is the entire agreement between the parties with respect to the subject matter herein and supersedes all prior and contemporaneous agreements, written or oral, between the parties relating to that subject matter. The Exclusive Licensee is a third party beneficiary of this License with the right, but not the obligation, to enforce this License against Licensee. Licensee agrees that any actual or threatened violation of this License may cause irreparable injury to Licensor and the Exclusive Licensee, entitling each to seek injunctive
+ 
+relief in addition to all legal remedies. All notices required or permitted under this License will be effective if made in writing and sent by certified or registered mail, or insured courier, return receipt requested, to the appropriate party at the address set forth above, in the case of Licensor, or in the signature block below, in the case of Licensee, and with the appropriate postage affixed. Notices are deemed given two
+(2) business days following the date of mailing and one (1) business day following delivery to a courier. This document may be executed in counterparts, each of which will be deemed an original, that together constitute but one agreement.
+11.	Governing Law.
+
+This Agreement shall be governed by, and construed and enforced in accordance with, the laws of the United States and the laws of the New Hampshire (without regard to the conflicts or choice of law principles thereof). Licensee and Dartmouth irrevocably consent to the jurisdiction of the State of New Hampshire, and agree that any court of competent jurisdiction sitting in the Grafton County, New Hampshire, shall be an appropriate and convenient place of venue to resolve any dispute with respect to this Agreement. In the event either Party commences any proceeding against the other Party with respect to this Agreement, the prevailing Party (as determined by the authority before whom such proceeding is commenced) shall be entitled to recover reasonable attorneys' fees and costs as may be incurred in connection therewith in addition to any such other relief as may be granted.
+WHEREAS, this License has been executed by an authorized representative of each party.
+
+The Trustees of Dartmouth College
+ 
+By:	 Name: Kim Rosenfield
+Title: Director, Technology Transfer Office
+
+Licensee: 
+By:   	
+Name: 
+Title: 
+Address:
+
