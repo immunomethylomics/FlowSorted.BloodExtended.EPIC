@@ -40,4 +40,5 @@ optimal DNA methylation libraries (IDOL). BMC bioinformatics. 17, 120.
 EA Houseman et al. (2012) DNA methylation arrays as surrogate measures of cell 
 mixture distribution. BMC Bioinformatics 13, 86.
 
-
+For an academic license please sign and send a copy of the LICENSE document to
+Technology.Transfer@dartmouth.edu 
