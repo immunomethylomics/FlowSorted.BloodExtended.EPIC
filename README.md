@@ -2,8 +2,10 @@
 # FlowSorted.BloodExtended.EPIC
 A new extended cell deconvolution for peripheral blood 
 
-License: GPL-3
-
+License: see LICENSE document
+For an academic license please download, sign and send a copy of the <a href="https://github.com/immunomethylomics/FlowSorted.BloodExtended.EPIC/blob/main/SoftwareLicense.FlowSorted.BloodExtended.EPIC.docx"> LICENSE document to
+Technology.Transfer@dartmouth.edu, please cc Cheryl.L.Junker@dartmouth.edu, Lucas.A.Salas@dartmouth.edu, and Brock.C.Christensen@dartmouth.edu
+  
 EPIC package contains Illumina HumanMethylationEPIC DNA methylation
 microarray data from the immunomethylomics group (Salas et al. 2021),
 consisting of 56 magnetic sorted blood cell references and 12 samples,
@@ -40,5 +42,4 @@ optimal DNA methylation libraries (IDOL). BMC bioinformatics. 17, 120.
 EA Houseman et al. (2012) DNA methylation arrays as surrogate measures of cell 
 mixture distribution. BMC Bioinformatics 13, 86.
 
-For an academic license please sign and send a copy of the LICENSE document to
-Technology.Transfer@dartmouth.edu 
+
