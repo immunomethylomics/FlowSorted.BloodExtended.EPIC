@@ -34,10 +34,15 @@ and EPIC data respectively.
 IDOLOptimizedCpGsBloodExtended is for the EPIC data deconvolution while
 IDOLOptimizedCpGsBloodExtended450k is for the 450k data deconvolution.
 
-References: LA Salas et al. (2018). An optimized library for reference-based
+References: 
+LA Salas et al. (2022) Enhanced cell deconvolution of peripheral blood 
+using DNA methylation for high-resolution immune profiling. Nat Commun 
+13, 761. doi: https://doi.org/10.1038/s41467-021-27864-7
+  
+LA Salas et al. (2018). An optimized library for reference-based
 deconvolution of whole-blood biospecimens assayed using the Illumina 
 HumanMethylationEPIC BeadArray. Genome Biology Genome Biology 19, 64.
-doi: 10.1186/s13059-018-1448-7.
+doi: https://doi.org/10.1186/s13059-018-1448-7.
 
 DC Koestler et al. (2016). Improving cell mixture deconvolution by identifying 
 optimal DNA methylation libraries (IDOL). BMC bioinformatics. 17, 120.
