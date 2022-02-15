@@ -3,8 +3,11 @@
 A new extended cell deconvolution for peripheral blood 
 
 License: see LICENSE document
-For an academic license please download, sign and send a copy of the <a href="https://github.com/immunomethylomics/FlowSorted.BloodExtended.EPIC/blob/main/SoftwareLicense.FlowSorted.BloodExtended.EPIC.docx"> LICENSE document to
+For an academic license please download, sign and send a copy of the <a href="https://github.com/immunomethylomics/FlowSorted.BloodExtended.EPIC/blob/main/SoftwareLicense.FlowSorted.BloodExtended.EPIC%20to%20sign.pdf"> LICENSE document to
 Technology.Transfer@dartmouth.edu, please cc Cheryl.L.Junker@dartmouth.edu, Lucas.A.Salas@dartmouth.edu, and Brock.C.Christensen@dartmouth.edu
+
+This document must be signed for an authorized representative (e.g, 
+TTO representative).
   
 EPIC package contains Illumina HumanMethylationEPIC DNA methylation
 microarray data from the immunomethylomics group (Salas et al. 2021),
