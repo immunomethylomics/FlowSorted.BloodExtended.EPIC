@@ -43,45 +43,105 @@ amounts of DNA from purified cells.
 reference library
 
 ```{r eval=FALSE}
-library(ExperimentHub)  
-hub <- ExperimentHub()  
-query(hub, "FlowSorted.BloodExtended.EPIC")  
-FlowSorted.BloodExtended.EPIC <- hub[["EH5425"]]  
-FlowSorted.BloodExtended.EPIC  
+
+library (FlowSorted.BloodExtended.EPIC)
+FlowSorted.BloodExtended.EPIC::FlowSorted.BloodExtended.EPIC
 ```
-The raw dataset is hosted in both ExperimentHub (EH5425) and GEO 
+The raw dataset is hosted in GEO 
 [GSE167998](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE167998)  
 
 2. *IDOLOptimizedCpGsBloodExtended* the IDOL L-DMR library for EPIC arrays  
 ```{r eval=FALSE}
-head(IDOLOptimizedCpGsExtended)  
+head(IDOLOptimizedCpGsBloodExtended)  
 ```  
 3. *IDOLOptimizedCpGsBloodExtended450k* the IDOL L-DMR library for legacy 450k 
 arrays  
 ```{r eval=FALSE}
 head(IDOLOptimizedCpGsBloodExtended450k)  
 ```  
-*See the object help files for additional information*  
-**References**
+Usage for extended deconvolution
+```{r Blood extended deconvolution, eval=FALSE}
+# Blood Extended deconvolution or any external reference
+#please contact <Technology.Transfer@dartmouth.edu>
 
-LA Salas et al. (2021) Enhanced cell deconvolution of peripheral blood using 
-DNA methylation for high-resolution immune profiling. (Under review)
+# Do not run
+library (FlowSorted.BloodExtended.EPIC)
+# 
+# Step 1: Extract the mix samples
 
-LA Salas et al. (2018). An optimized library for reference-based deconvolution 
-of whole-blood biospecimens assayed using the Illumina HumanMethylationEPIC
-BeadArray. Genome Biology 19, 64. doi:
-[10.1186/s13059-018-1448-7](https://dx.doi.org/10.1186/s13059-018-1448-7).  
+FlowSorted.Blood.EPIC <- libraryDataGet('FlowSorted.Blood.EPIC')
 
-DC Koestler et al. (2016). Improving cell mixture deconvolution by
-identifying optimal DNA methylation libraries (IDOL). BMC bioinformatics.
-17, 120. doi:
-[10.1186/s12859-016-0943-7](https://dx.doi.org/10.1186/s12859-016-0943-7).  
+# Step 2 separate the reference from the testing dataset if you want to run 
+# examples for estimations for this function example
 
-EA Houseman et al. (2012) DNA methylation arrays as surrogate
-measures of cell mixture distribution. BMC Bioinformatics 13, 86.
-doi: [10.1186/1471-2105-13-86](https://dx.doi.org/10.1186/1471-2105-13-86).  
+RGsetTargets <- FlowSorted.Blood.EPIC[,
+FlowSorted.Blood.EPIC$CellType == "MIX"]
+sampleNames(RGsetTargets) <- paste(RGsetTargets$CellType,
+                              seq_len(dim(RGsetTargets)[2]), sep = "_")
+RGsetTargets
 
-[minfi](http://bioconductor.org/packages/release/bioc/html/minfi.html)
-Tools to analyze & visualize Illumina Infinium methylation arrays.
+# Step 3: use your favorite package for deconvolution.
+# Deconvolute the target data set 450K or EPIC blood DNA methylation. 
+# We recommend ONLY the IDOL method, the automatic method can lead to severe
+# biases.
 
+# We recommend using Noob processMethod = "preprocessNoob" in minfi for the 
+# target and reference datasets. 
+# Cell types included are "Bas", "Bmem", "Bnv", "CD4mem", "CD4nv", 
+# "CD8mem", "CD8nv", "Eos", "Mono", "Neu", "NK", and "Treg"
+# Use estimateCellCounts2 from FlowSorted.Blood.EPIC. 
+# Do not run with limited RAM the normalization step requires a big amount 
+# of memory resources. Use the parameters as specified below for 
+# reproducibility.
+# 
+if (memory.limit()>8000){
+    prop_ext<-estimateCellCounts2(RGsetTargets,
+                                    compositeCellType =
+                                               "BloodExtended",
+                                    processMethod = "preprocessNoob",
+                                    probeSelect = "IDOL",
+                                    cellTypes = c("Bas", "Bmem", "Bnv",
+                                               "CD4mem", "CD4nv",
+                                              "CD8mem", "CD8nv", "Eos",
+                                              "Mono", "Neu", "NK", "Treg"),
+    CustomCpGs =if(RGsetTargets@annotation[1]=="IlluminaHumanMethylationEPIC"){
+    IDOLOptimizedCpGsBloodExtended}else{IDOLOptimizedCpGsBloodExtended450k})
 
+   perc_ext<-round(prop_ext$prop*100,1)
+   head(perc_ext)
+}
+```
+
+```{r}
+sessionInfo()
+```
+  
+ **References**  
+
+ LA Salas et al. (2018). An optimized library for reference-based deconvolution 
+ of whole-blood biospecimens assayed using the Illumina HumanMethylationEPIC
+ BeadArray. Genome Biology 19, 64. doi:
+ [10.1186/s13059-018-1448-7](https://dx.doi.org/10.1186/s13059-018-1448-7).  
+ 
+ LA Salas et al. (2022). \emph{Enhanced cell deconvolution of 
+ peripheral blood using DNA methylation for high-resolution immune 
+ profiling}. Nat Comm 13, 761 (2022). doi:
+ [10.1038/s41467-021-27864-7](https://doi.org/10.1038/s41467-021-27864-7).
+ 
+ DC Koestler et al. (2016). Improving cell mixture deconvolution by
+ identifying optimal DNA methylation libraries (IDOL). BMC bioinformatics.
+ 17, 120. doi:
+ [10.1186/s12859-016-0943-7](https://dx.doi.org/10.1186/s12859-016-0943-7).
+ 
+ K Gervin, LA Salas et al. (2019) \emph{Systematic evaluation and 
+ validation of references and library selection methods for deconvolution of 
+ cord blood DNA methylation data}. Clin Epigenetics 11,125. doi:
+ [10.1186/s13148-019-0717-y](https://dx.doi.org/10.1186/s13148-019-0717-y).
+ 
+ EA Houseman et al. (2012) DNA methylation arrays as surrogate
+ measures of cell mixture distribution. BMC Bioinformatics 13, 86.
+ doi:
+ [10.1186/1471-2105-13-86](https://dx.doi.org/10.1186/1471-2105-13-86).  
+ 
+ [minfi](http://bioconductor.org/packages/release/bioc/html/minfi.html)
+ Tools to analyze & visualize Illumina Infinium methylation arrays.
